@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ms" ng-app="landing">
+<!--v1.0-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Zurich | DoctorOnCall </title>
+    <meta name="keywords" content="Manfaat Insurans oleh Zurich dan DoctorOnCall">
+
+    <meta name="description" content="DoctorOnCall adalah cara yang paling mudah untuk membuat pesanan ubat preskripsi secara atas talian. Bercakap dengan doktor melalui telefon dan hantarkan ubat ke rumah anda.">
+    <meta name="author" content="DoctorOnCall">
+
+    <link rel="alternate" hreflang="en" href="/landingIndex-EN">
+
+    <meta property="og:site_name" content="DoctorOnCall">
+    <meta property="og:title" content="DoctorOnCall | Laman Perubatan dan Farmasi Atas Talian Malaysia">
+    <meta property="og:description" content="DoctorOnCall adalah cara yang paling mudah untuk membuat pesanan ubat preskripsi secara atas talian. Bercakap dengan doktor melalui telefon dan hantarkan ubat ke rumah anda.">
+    <meta property="og:image" itemprop="image" content="https://www.doctoroncall.com.my/medicine/images/doctoroncall-promotion.jpg">
+    <!--Change After Routed -->
+    <meta property="og:url" content="https://www.doctoroncall.com.my/GreatEastern-BM">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="DoctorOnCall | Laman Perubatan dan Farmasi Atas Talian Malaysia">
+
+    <link rel="preconnect" href="https://stats.g.doubleclick.net">
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-80312661-1"></script>
+    <script>
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-80312661-1");
+        function gohere(a) {
+            var elmnt = document.getElementById(a);
+            elmnt.scrollIntoView();
+        }
+        function myFunction() {
+            var x = document.getElementById("dropDown");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-80312661-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <link rel="stylesheet" href="/zurich/css/bootstrap-grid.min.css" type="text/css">
+    <!--<link rel="stylesheet" href="/zurich/css/main.css" type="text/css">-->
+    <link rel="stylesheet" href="/zurich/css/main.min.css" type="text/css">
+</head>
+
+<body ng-controller="landingHomeController">
+<header>
+    <div class=" logo-container">
+    	<img class="doc-logo" src="/zurich/img/doctorOnCall-logo.svg" alt="dengan kerjasama doctor on call">
+    </div>
+    <div class="desktop-links">
+    	<a target="_self" class="pointTo" onclick="window.location.href='#services'">Perkhidmatan Kesihatan</a>
+    	<a target="_self" class="pointTo" onclick="window.location.href='#symptoms'">Masalah Kesihatan</a>
+    	<a target="_self" class="pointTo" onclick="window.location.href='#medicine'">Ubat Popular</a>
+    	<a target="_self" class="pointTo" onclick="window.location.href='#faq'">Soalan</a>
+    </div>
+    <div class="header-rightside">
+    	<a target="_self" href="/index-EN.html"><img src="/zurich/img/malaysia-flag-icon-32.png" alt="Malaysia Flag" class="flag"> EN</a>
+    	<p class="header-pn">+603 84082000</p>
+    </div>
+    <div class="mobile-links">
+    	<a href="#" onclick="myFunction()">
+    		<img src="/zurich/img/icons8-menu-48.png" alt="menu icon for mobile only">
+    	</a>
+    	<div id="dropDown" class="drop-downlist">
+    		<a target="_self" class="pointTo" onclick="window.location.href='#services'">Perkhidmatan Kesihatan</a>
+    		<a target="_self" class="pointTo" onclick="window.location.href='#symptoms'">Masalah Kesihatan</a>
+    		<a target="_self" class="pointTo" onclick="window.location.href='#medicine'">Ubat Popular</a>
+    		<a target="_self" class="pointTo" onclick="window.location.href='#faq'">Soalan Lazim</a>
+    	</div>
+    </div>
+</header>
+<div class="container-fluid introduction">
+	<div class="intro-textarea">
+		<p class="intro-title">
+			Manfaat Zurich Life Insurance<br/> 
+			&amp; Zurich Takaful 
+		</p>
+		<p class="intro-desc">
+			Sebagai pelanggan Zurich Life Insurance &amp; Zurich Takafu yang dihargai, anda boleh menikmati perkhidmatan kesihatan ini secara <b>PERCUMA</b>
+		</p>
+		<a onClick="window.location.href='#login'" class="intro-button">Log Masuk</a>
+		<div class="intro-logo">
+			<img src="/zurich/img/Zurich%20Logo%20CMYK.png" alt="Zurich Insurance">
+			<img src="/zurich/img/Zurich%20takaful%20Logo%20CMYK.png" alt="Zurich Takaful Insurance">
+		</div>		
+	</div>
+</div>
+<div id="services" class=" service-container container" >
+    <h2>Perkhidmatan Kesihatan</h2>
+    <div class="row">
+        <div class="col-lg-4">
+
+            <div class="service-wrapper">
+                <img loading="lazy" src="/zurich/img/online-consultation-doctor-on-call-malaysia-zurich-takaful.png" alt="online doctor private consultation - DoctorOnCall">
+                <div class="service-textarea">
+                    <p class="service-title">Rundingan Doktor</p>
+                    <p class="service-desc">Dapatkan rundingan doktor kami pada bila-bila masa, atau di mana jua anda berada melalui mesej, panggilan telefon atau video.</p>
+                    <a target="_self" class="service-btn" onclick="window.location.href='#login'">Log Masuk</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4">
+
+            <div class="service-wrapper">
+                <img loading="lazy" src="/zurich/img/services-epharmacy-doctor-on-call-malaysia-zurich-takaful.png" alt="online epharmacy DoctorOnCall Malaysia">
+                <div class="service-textarea">
+                    <p class="service-title">E-Farmasi</p>
+                    <p class="service-desc">Beli ubat,suplemen kesihatan dan barang penjagaan peribadi dengan harga yang kompetitif serta dapatkan penghantaran <b>PERCUMA</b> ke rumah anda. </p>
+                    <a href="https://www.doctoroncall.com.my/medicine" class="service-btn">Beli Sekarang</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4">
+
+            <div class="service-wrapper">
+                <img loading="lazy" src="/zurich/img/services-online-booking-doctor-on-call-malaysia-zurich-takaful.png" alt="online booking doctor specialist DoctorOnCall Malaysia">
+                <div class="service-textarea">
+                    <p class="service-title">Atur Temu Janji</p>
+                    <p class="service-desc">Pilihan atur temu janji dengan lebih 1000 doktor pakar dari rangkaian hospital kami.</p>
+                    <a href="https://www.doctoroncall.com.my/find-doctor" class="service-btn">Atur Temu Janji</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="login" class="login no-gutter">
+    <div class="container">
+        <div class="login-wrapper row">
+           <div class="col-lg-7 col-md-6">
+                <!--put the contact banner here-->
+                <div class="login-contact">
+					<img src="/zurich/img/doctor-on-call-logo-white.png" alt="">
+					<p class="contact-main-title">Hubungi Kami</p>
+					<div class="contact-wrapper">
+						<svg class="contact-icon-phone" viewBox="0 0 512.01 512.01">
+						<title>phone-solid</title><path class="cls-1" d="M493.4,24.6l-104-24a24.16,24.16,0,0,0-27.5,13.9l-48,112a23.94,23.94,0,0,0,6.9,28l60.6,49.6A370.61,370.61,0,0,1,204.2,381.3l-49.6-60.6a24,24,0,0,0-28-6.9l-112,48a24.29,24.29,0,0,0-14,27.6l24,104A24,24,0,0,0,48,512c256.1,0,464-207.5,464-464A24,24,0,0,0,493.4,24.6Z" transform="translate(0.01 0.01)"></path>
+</svg>
+						<div class="cont-textarea">
+							<p class="contact-title">Hubungi Kami </p>
+							<a href="tel:0384042000" class="contact-desc">+603 8404 2000</a>
+						</div>
+					</div>
+					<div class="contact-wrapper">
+						<svg class="banner-icon-mail" viewBox="0 0 172 172">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g fill="#fff">
+								<g id="surface1">
+									<path d="M0,24.08v9.89l86,68.2625l86,-67.4025v-10.75zM0,42.6775v105.2425h172v-104.3825l-83.85,65.79c-0.61812,0.48375 -1.3975,0.7525 -2.15,0.7525c-0.7525,0 -1.51844,-0.25531 -2.15,-0.7525z"></path>
+								</g>
+							</g>
+						</g>
+</svg>
+						<div class="cont-textarea">
+							<p class="contact-title">Emel Kami</p>
+							<a href="mailto:contact@DoctorOnCall.com.my" class="contact-desc">contact@DoctorOnCall.com.my</a>
+						</div>
+                	</div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <div class="login-form">
+                    <p class="login-title">Berunding Dengan Doktor Kami</p>
+                    <form ng-submit="signInUser()"class="form-wrapper">
+                        <p><label>Emel / Nombor Telefon</label></p>
+                        <input type="text" name="uname" required placeholder="abc@email.com / 6012 345 6789" ng-model="user.emailOrMobile">
+                        <p><label>Kata Laluan</label></p>
+                        <input type="password" name="pswd" required ng-model="user.password">
+                        <input type="checkbox" name="checkbox1" id="checkbox1" class="css-checkbox" checked="checked"><label for="checkbox1" class="css-label">Ya, saya sudah baca dan bersetuju dengan <a href="https://www.doctoroncall.com.my/termsOfService"> Terma &amp; Syarat Privasi</a> dan <a href="https://www.doctoroncall.com.my/privacyPolicy">Dasar perlindungan Data Peribadi</a></label>
+
+                        <button type="submit" class="login-btn">Log Masuk Untuk "Berunding Dengan Doktor Kami"</button>
+
+                        <a href="https://www.doctoroncall.com.my/patient#/forgotPassword/" class="login-forget">Lupa Kata Laluan?</a>
+                    </form>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<a href="https://doctoroncall.com.my/medicine">
+    <div class="ads-container container"></div>
+</a>
+<div id="medicine" class="medicine-container container">
+	<h2>Ubat Popular</h2>
+    <p>Buat pembelian produk kesihatan daripada E-Farmasi DoctorOnCall</p>
+    <div class="medicine-list row">
+		<div class="medicine-col col-sm-6 col-lg-3">
+                    <a href="https://www.doctoroncall.com.my/medicine/supplemen/blackmores-fish-oil-1000mg">
+                        <div class="medicine-product">
+                            <div class="medicine-picture">
+                                <img loading="lazy" src="/zurich/img/Blackmores-Fish-Oil-1000mg-Efarmasi-Malaysia-DoctorOnCall-Online-Medicine.png"	 alt="Blackmores Fish Oil 1000mg Efarmasi Malaysia DoctorOnCall Online Medicine">
+                            </div>
+                            <div class="medicine-textarea">
+                                <p class="medicine-name">Blackmores Fish Oil 1000mg</p>
+
+                                <hr>
+                                <a href="https://www.doctoroncall.com.my/medicine/supplemen/blackmores-fish-oil-1000mg" class="symp-med-btn"> Lihat Info</a>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        <div class="medicine-col col-sm-6 col-lg-3">
+                    <a href="https://www.doctoroncall.com.my/medicine/b40-articap-250mg-100s">
+                        <div class="medicine-product">
+                            <div class="medicine-picture">
+                                <img loading="lazy" src="/zurich/img/Artricap-250mg-Capsule-Efarmasi-Malaysia-DoctorOnCall-Online-Medicine.png"	 alt="Artricap 250mg Capsule Efarmasi Malaysia DoctorOnCall Online Medicine">
+                            </div>
+                            <div class="medicine-textarea">
+                                <p class="medicine-name">Artricap 250mg Capsule</p>
+
+                                <hr>
+                                <a href="https://www.doctoroncall.com.my/medicine/b40-articap-250mg-100s" class="symp-med-btn"> Lihat Info</a>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+		<div class="medicine-col col-sm-6 col-lg-3">
+                    <a href="https://www.doctoroncall.com.my/medicine/kebersihan/bages-ointment-muscle-pain">
+                        <div class="medicine-product">
+                            <div class="medicine-picture">
+                                <img loading="lazy" src="/zurich/img/Flanil-Cream-Efarmasi-Malaysia-DoctorOnCall-Online-Medicine.png"	 alt="Flanil Cream Efarmasi Malaysia DoctorOnCall Online Medicine">
+                            </div>
+                            <div class="medicine-textarea">
+                                <p class="medicine-name">Flanil Cream</p>
+
+                                <hr>
+                                <a href="https://www.doctoroncall.com.my/medicine/kebersihan/bages-ointment-muscle-pain" class="symp-med-btn"> Lihat Info</a>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+ 		<div class="medicine-col col-sm-6 col-lg-3">
+                    <a href="https://www.doctoroncall.com.my/medicine/berocca-effervescent-15-tabs">
+                        <div class="medicine-product">
+                            <div class="medicine-picture" style="">
+                                <img loading="lazy" src="/zurich/img/Berocca-Effervescent-Tablet-Efarmasi-Malaysia-DoctorOnCall-Online-Medicine.png"	 alt="Berocca Effervescent Tablet Efarmasi Malaysia DoctorOnCall Online Medicine">
+                            </div>
+                            <div class="medicine-textarea">
+                                <p class="medicine-name">Berocca Effervescent 15 Tabs</p>
+
+                                <hr>
+                                <a href="https://www.doctoroncall.com.my/medicine/berocca-effervescent-15-tabs" class="symp-med-btn"> Lihat Info</a>
+
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+   	</div>
+   	<a href="https://www.DoctorOnCall.com.my/medicine" class="symp-med-btn">Lihat Semua</a>
+</div>
+<div id="symptoms" class="symptom-container container-fluid">
+            <h2>Masalah Kesihatan</h2>
+            <p class="container-desc">Berikut adalah antara masalah kesihatan yang boleh kami bantu</p>
+            <div class="symp-wrapper container">
+                <div class="row">
+					<div class="symp-icon-text col-md-6 col-sm-12">
+						<div class="symp-icon">
+							<img loading="lazy" src="/zurich/img/symptoms-diarrohea-1-zurich-takaful.png" alt="">
+						</div>
+						<div class="symp-textarea">
+							<p class="symp-title">Cirit-Birit</p>
+							<p class="symp-desc">Bercakap dengan doktor kami untuk nasihat dan langkah berjaga-jaga untuk kekal sihat dan hidrat.</p>
+						</div>
+</div>
+					<div class="symp-icon-text col-md-6 col-sm-12">
+						<div class="symp-icon">
+							<img loading="lazy" src="/zurich/img/symptoms-whmh-2-zurich-takaful.png" alt="">
+						</div>
+						<div class="symp-textarea">
+							<p class="symp-title">Kesihatan Lelaki dan Wanita</p>
+							<p class="symp-desc">Dapatkan rundingan peribadi daripada doktor kami!</p>
+						</div>
+</div>
+					<div class="symp-icon-text col-md-6 col-sm-12">
+						<div class="symp-icon">
+							<img loading="lazy" src="/zurich/img/symptoms-cough-and-cold-3-zurich-takaful.png" alt="">
+						</div>
+						<div class="symp-textarea">
+							<p class="symp-title"> Batuk dan Selsema </p>
+							<p class="symp-desc">Berehat di rumah dan biar kami hantar ubat ke rumah anda. Anda bukan dalam keadaan untuk memandu!</p>
+						</div>
+</div>
+					<div class="symp-icon-text col-md-6 col-sm-12">
+                    <div class="symp-icon">
+                        <img loading="lazy" src="/zurich/img/symptoms-sexual-health-4-zurich-takaful.png" alt="">
+                    </div>
+                    <div class="symp-textarea">
+                        <p class="symp-title">Kesihatan Seksual</p>
+                        <p class="symp-desc">Bercakap dengan doktor kami mengenai HIV/AIDS, Klamidia dan Gonorea</p>
+                    </div>
+                </div>
+					<div class="symp-icon-text col-md-6 col-sm-12">
+						<div class="symp-icon">
+							<img loading="lazy" src="/zurich/img/symptoms-allergies-5-zurich-takaful.png" alt="">
+						</div>
+						<div class="symp-textarea">
+							<p class="symp-title">Alahan</p>
+							<p class="symp-desc">Hantar gambar ruam anda untuk doktor kami bantu anda!</p>
+						</div>
+</div>
+					<div class="symp-icon-text col-md-6 col-sm-12">
+                    <div class="symp-icon">
+                        <img loading="lazy" src="/zurich/img/symptoms-skin-conditions-6-zurich-takaful.png" alt="">
+                    </div>
+                    <div class="symp-textarea">
+                        <p class="symp-title">Masalah Kulit</p>
+                        <p class="symp-desc">Masalah lazim yang kami terima adalah Ekzema, Jerawat dan Kudis</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <a href="https://www.doctoroncall.com.my/soalan" class="symp-med-btn">Ketahui Lebih Lanjut</a>
+        </div>
+<div id="faq" class="faq-container container">
+    <h2>Soalan Lazim</h2>
+    <ol>
+        <li>
+            <p class="faq-questions">Adakah saya perlu membayar untuk rundingan DoctorOnCall?
+            </p>
+            <p class="faq-answers">Sebagai pelanggan Zurich Life Insurance dan Zurich Takaful, rundingan anda adalah <span>PERCUMA</span>. Tiada pembayaran diperlukan.
+            </p>
+        </li>
+        <li>
+            <p class="faq-questions">Apakah waktu operasi DoctorOnCall?
+            </p>
+            <p class="faq-answers">DoctorOnCall beroperasi 7 hari seminggu, dari pukul 8 pagi hingga 11.59 malam (termasuk cuti umum)
+            </p>
+        </li>
+        <li>
+            <p class="faq-questions">Saya baru membuat pembelian ubat dari E-Farmasi DoctorOnCall. Bilakah boleh saya menerimanya?
+            </p>
+            <p class="faq-answers">Bergantung kepada pilihan penghantaran dan ketersediaan produk, anda mungkin boleh menerima pesanan pada hari yang sama.
+            </p>
+        </li>
+        <li>
+            <p class="faq-questions">Apakah perlu saya buat jika saya terlupa kata laluan?
+            </p>
+            <p class="faq-answers">Anda boleh layari <a href="https://www.doctoroncall.com.my/patient#/signin">https://www.doctoroncall.com.my/patient#/signin</a> dan klik pada ‘Lupa Kata Laluan’ untuk menukar kata laluan yang baru.
+
+            </p>
+        </li>
+        <li>
+            <p class="faq-questions">Bagaimana jika saya mempunyai soalan lanjut?
+            </p>
+            <p class="faq-answers">Anda boleh hubungi kami di <a href="+60384082000">+603-8408 2000</a> atau emel di <a href="mailto:contact@DoctorOnCall.com.my">contact@DoctorOnCall.com.my</a></p>
+        </li>
+    </ol>
+</div>
+<footer>
+    <a href="https://www.doctoroncall.com.my/termsOfService">Terma dan Syarat</a>
+    <a class="pointTo"  onclick="window.location.href='#services'">Perkhidmatan Kesihatan</a>
+    <a class="pointTo"  onclick="window.location.href='#symptoms'">Masalah Kesihatan</a>
+    <a class="pointTo"  onclick="window.location.href='#medicine'">Ubat Popular</a>
+    <a class="pointTo"  onclick="window.location.href='#faq'">Soalan Lazim </a>
+    <a href="/zurich/index-EN.html"><img src="/zurich/img/malaysia-flag-icon-32.png" alt="Malaysia Flag" class="flag"> EN</a>
+</footer>
+</body>
+
+<script src="/build/tpbundle.min.js"></script>
+<script src="/bower_components/angular-jwt/dist/angular-jwt.js"></script>
+<script src="/angular/utils.js"></script>
+<script>
+    var landing = angular.module('landing', ['ngMaterial', 'ngSanitize','angular-jwt',]);
+    landing.controller('landingHomeController', ['$scope', '$rootScope', '$location', '$filter', '$http','$mdToast','SessionService','gaService_callType',
+        function ($scope, $rootScope, $location, $filter, $http,$mdToast,SessionService,gaService_callType) {
+
+            $scope.signInUser = function () {
+                if (checkForEmailorMobile() == "mobile") {
+                    var sessionObj = {
+                        type: constants.USER_TYPE_USER
+                    };
+                    sessionHelper.create(sessionObj, getCurrTime());
+                    var userSession = lsGet(constants.SESSION);
+                    verifyMobile(function () {
+                        var passHash = CryptoJS.MD5($scope.user.password);
+                        var osInfo = detectOs();
+                        var os = osInfo.os.toLowerCase();
+                        var loginCredentials = {
+                            mobile: $scope.user.mobile,
+                            password: passHash.toString(CryptoJS.enc.Hex),
+                            source: 'web',
+                            referrer: window.document.referrer,
+                            sessionData: {
+                                type: constants.USER_TYPE_USER,
+                                startTime: new Date(),
+                                activationTime: userSession.activationTime,
+                                metaInfo: userSession.metaInfo
+                            }
+                        };
+                        if (osInfo.hasOwnProperty('os') && (os.indexOf('android') > -1 || os.indexOf('ios') > -1)) {
+                            loginCredentials.source = 'mobileWeb';
+                        }
+                        $http.post('/user/signin', loginCredentials).then(function successCallback(result) {
+                            var data = result.data;
+                            var message = data.message;
+                            if (message === constants.MESSAGE_SUCCESS) {
+                                gaService_callType.gaSignIn();
+                                var userObject = data.object;
+                                userObject.isLoggedIn = true;
+                                lsSet(constants.USER_DETAILS, userObject);
+                                var sessionObj = {
+                                    id: userObject.id,
+                                    type: constants.USER_TYPE_USER
+                                };
+                                sessionHelper.create(sessionObj, getCurrTime());
+                                $rootScope.loggedInUser = userObject;
+                                var userSession = lsGet(constants.SESSION);
+                                var sessionData = {
+                                    id: userSession.id,
+                                    type: constants.USER_TYPE_USER,
+                                    startTime: new Date(),
+                                    activationTime: userSession.activationTime,
+                                    metaInfo: userSession.metaInfo
+                                };
+                                $http.post('/db/session/create', sessionData).then(function successCallback(result) {
+                                    var data = result.data;
+                                    var message = data.message;
+                                    if (result.data.message === constants.MESSAGE_SUCCESS) {
+                                        window.location.href = "/myRedirect"
+                                    } else {
+                                        lsSet(constants.USER_DETAILS,{isLoggedIn : false, email : $scope.user.email});
+                                        window.location.href = "/patient#/signin"
+                                    }
+                                }, function errorCallback(response) {
+                                });
+                            } else if (message === constants.PASSWORD_MISMATCH) {
+                                alert("Wrong Password, Please Try Again");
+                                $mdToast.show(
+                                    $mdToast.simple()
+                                        .textContent('Wrong Password, Please Try Again')
+                                );
+                            } else if (message === constants.MESSAGE_ERROR) {
+                                alert("Server Error! Sorry for the inconvenience");
+                                $mdToast.show(
+                                    $mdToast.simple()
+                                        .textContent('Server Error! Sorry for the inconvenience')
+                                );
+                            } else if (message === constants.EMAIL_NOT_EXISTS) {
+                                alert("Check your mobile number and password");
+                                $mdToast.show(
+                                    $mdToast.simple()
+                                        .textContent('Check your mobile number and password')
+                                );
+                            } else {
+                                alert("Please enter a valid mobile number or Email Id");
+                                $mdToast.show(
+                                    $mdToast.simple()
+                                        .textContent('Error occurred')
+                                );
+                            }
+                        }, function errorCallback(response) {
+                        });
+                    });
+                }
+                else if(checkForEmailorMobile() == "email"){
+                    var sessionObj = {
+                        type: constants.USER_TYPE_USER
+                    };
+                    sessionHelper.create(sessionObj, getCurrTime());
+                    var userSession = lsGet(constants.SESSION);
+                    var passHash = CryptoJS.MD5($scope.user.password);
+                    var loginCredentials = {
+                        email: $scope.user.email,
+                        password: passHash.toString(CryptoJS.enc.Hex),
+                        sessionData: {
+                            type: constants.USER_TYPE_USER,
+                            startTime: new Date(),
+                            activationTime: userSession.activationTime,
+                            metaInfo: userSession.metaInfo
+                        }
+                    };
+                    $http.post('/user/signin', loginCredentials).then(function successCallback(result) {
+                        var data = result.data;
+                        var message = data.message;
+                        if (message === constants.MESSAGE_SUCCESS) {
+                            gaService_callType.gaSignIn();
+                            var userObject = data.object;
+                            userObject.isLoggedIn = true;
+                            lsSet(constants.USER_DETAILS, userObject);
+                            var sessionObj = {
+                                id: userObject.id,
+                                type: constants.USER_TYPE_USER
+                            };
+                            sessionHelper.create(sessionObj, getCurrTime());
+                            $rootScope.loggedInUser = userObject;
+                            var userSession = lsGet(constants.SESSION);
+                            var sessionData = {
+                                id: userSession.id,
+                                type: constants.USER_TYPE_USER,
+                                startTime: new Date(),
+                                activationTime: userSession.activationTime,
+                                metaInfo: userSession.metaInfo
+                            };
+                            $http.post('/db/session/create', sessionData).then(function successCallback(response) {
+                                if (response.data.message === constants.MESSAGE_SUCCESS) {
+                                    lsSet("userLang",{lang : 'my'});
+                                    window.location.href = "/myRedirect"
+                                } else {
+                                    lsSet(constants.USER_DETAILS,{isLoggedIn : false, email : $scope.user.email});
+                                    window.location.href = "/patient#/signin"
+                                }
+                            }, function errorCallback(response) {
+                            });
+                        } else if (message === constants.PASSWORD_MISMATCH) {
+                            alert("Wrong Password, Please Try Again");
+                            $mdToast.show(
+                                $mdToast.simple()
+                                    .textContent('Wrong Password, Please Try Again')
+                            );
+                        } else if (message === constants.MESSAGE_ERROR) {
+                            alert("Server Error! Sorry for the inconvenience");
+                            $mdToast.show(
+                                $mdToast.simple()
+                                    .textContent('Server Error! Sorry for the inconvenience')
+                            );
+                        } else if (message === constants.EMAIL_NOT_EXISTS) {
+                            alert("Check your mobile number and password");
+                            $mdToast.show(
+                                $mdToast.simple()
+                                    .textContent('Check your email and password')
+                            );
+                        } else {
+                            alert("Error occurred");
+                            $mdToast.show(
+                                $mdToast.simple()
+                                    .textContent('Error occurred')
+                            );
+                        }
+                    }, function errorCallback(response) {
+                    });
+                }
+                else{
+                    alert("Please enter a valid mobile number or Email Id");
+                    $mdToast.show(
+                        $mdToast.simple()
+                            .textContent('Please enter a valid mobile number or Email Id')
+                    );
+                }
+            };
+
+            var verifyMobile = function (callback) {
+                $scope.user.countryCode = '+60';
+                if ($scope.user.countryCode) {
+                    if ($scope.user.mobile && $scope.user.mobile.length >= 7) {
+                        while($scope.user.mobile[0] == "0" || ($scope.user.mobile[0]+$scope.user.mobile[1]+$scope.user.mobile[2] == "+60" || $scope.user.mobile[0]+$scope.user.mobile[1] == "60")){
+                            if($scope.user.mobile[0] == "0"){
+                                $scope.user.mobile = $scope.user.mobile.substr(1);
+                            }else if($scope.user.mobile[0]+$scope.user.mobile[1]+$scope.user.mobile[2] == "+60"){
+                                $scope.user.mobile = $scope.user.mobile.split('+60')[1];
+                            }else if($scope.user.mobile[0]+$scope.user.mobile[1] == "60"){
+                                $scope.user.mobile = $scope.user.mobile.split('60')[1];
+                            }
+                        };
+                        var postData = {
+                            mobile: $scope.user.mobile,
+                            countryCode: $scope.user.countryCode
+                        };
+                        $http.post('/user/status', postData).then(function successCallback(result) {
+                            var data = result.data;
+                            var message = data.message;
+                            if (message === constants.MESSAGE_SUCCESS) {
+                                var userObject = data.object;
+                                var userStatus = userObject.status;
+                                if (userStatus == constants.MESSAGE_VERIFIED) {
+                                    $scope.showPassword = true;
+                                    callback();
+                                } else {
+                                    ngToast.create({
+                                        className: 'ngNotification',
+                                        content: 'Please complete your singup process'
+                                    });
+                                    lsSet(constants.USER_DETAILS, userObject);
+                                    $location.path('/otp');
+                                }
+                            } else if (message == constants.MESSAGE_ERROR) {
+                                $scope.showPassword = false;
+                                alert("Your mobile number does not exist, Please Try Again or Click Register");
+                                // ngToast.create({
+                                //     className: 'ngNotification',
+                                //     content: 'Your mobile number does not exist, Please Try Again or Click Register'
+                                // });
+                            }
+                        }, function errorCallback(response) {
+                        });
+                    }
+                } else {
+                    ngToast.create({
+                        className: 'ngNotification',
+                        content: 'Please provide a Country Code'
+                    });
+                }
+            };
+
+            var checkForEmailorMobile = function(){
+                var intRegex = /[0-9 -()+]+$/;
+                var  emailReg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+                if(($scope.user.emailOrMobile.length > 6 && $scope.user.emailOrMobile.length <15) && (intRegex.test($scope.user.emailOrMobile))){
+                    $scope.user.mobile = $scope.user.emailOrMobile;
+                    return "mobile";
+                }
+                else if(($scope.user.emailOrMobile.length > 4) && (emailReg.test($scope.user.emailOrMobile))){
+                    $scope.user.email = $scope.user.emailOrMobile;
+                    return "email";
+                }
+                else{
+                    return null;
+                }
+            };
+        }]);
+    landing.service('SessionService', function () {
+
+        var user = lsGet('adminUser');
+
+        this.setUser = function (newUser) {
+            lsSet('adminUser', newUser);
+            user = newUser;
+        };
+
+        this.getUser = function () {
+            return user;
+        };
+    });
+    landing.service('gaService_callType',function(){
+        this.gaSignUp = function () {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-80312661-1', 'auto');
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Auth',
+                eventAction: 'signup'
+            });
+        }
+
+        this.gaSignIn = function () {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-80312661-1', 'auto');
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Auth',
+                eventAction: 'signIn'
+            });
+        }
+
+        this.gaOauthSignIn = function () {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-80312661-1', 'auto');
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Auth',
+                eventAction: 'oauthSignIn'
+            });
+        }
+        this.pageTrack = function () {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-80312661-1', 'auto');
+            ga('set', 'page', '/calltype');
+            ga('send', 'pageview');
+        }
+    });
+</script>
+
+</html>
