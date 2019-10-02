@@ -46,6 +46,11 @@
                 x.style.display = "none";
             }
         }
+		function goAndHide(a){
+			window.location.href='a';
+			var x = document.getElementById("dropDown");
+			x.style.display = "none"
+		}
 
     </script>
     <script>
@@ -90,7 +95,7 @@
     		<img src="./zurich/img/icons8-menu-48.png" alt="menu icon for mobile only">
     	</a>
     	<div id="dropDown" class="drop-downlist">
-    		<a target="_self" class="pointTo" onclick="window.location.href='#services'">Health Services</a>
+    		<a target="_self" class="pointTo" onclick="goAndHide('#symptoms')">Health Services</a>
     		<a target="_self" class="pointTo" onclick="window.location.href='#symptoms'">Top Conditions</a>
     		<a target="_self" class="pointTo" onclick="window.location.href='#medicine'">Top Medicines</a>
     		<a target="_self" class="pointTo" onclick="window.location.href='#faq'">FAQs</a>
@@ -109,8 +114,8 @@
 		</p>
 		<a onClick="window.location.href='#login'" class="intro-button pointTo">Sign In</a>
 		<div class="intro-logo">
-			<img src="./zurich/img./zurich%20Logo%20CMYK.png" alt="Zurich Insurance">
-			<img src="./zurich/img./zurich%20takaful%20Logo%20CMYK.png" alt="Zurich Takaful Insurance">
+			<img src="./zurich/img/zurich%20Logo%20CMYK.png" alt="Zurich Insurance">
+			<img src="./zurich/img/zurich%20takaful%20Logo%20CMYK.png" alt="Zurich Takaful Insurance">
 		</div>		
 	</div>
 </div>
