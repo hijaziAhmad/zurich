@@ -11,17 +11,19 @@
 
     <meta name="description" content="DoctorOnCall adalah cara yang paling mudah untuk membuat pesanan ubat preskripsi secara atas talian. Bercakap dengan doktor melalui telefon dan hantarkan ubat ke rumah anda.">
     <meta name="author" content="DoctorOnCall">
-	<link rel="shortcut icon" href="/zurich/img/favicon.x_icon" type="image/x-icon">
-	<link rel="icon" href="/zurich/img/favicon.x_icon" type="image/x-icon">
-	<link rel="apple-touch-icon" href="/zurich/img/doctor-on-call-logo-white.png">
-    <link rel="alternate" hreflang="en" href="/index-EN.html">
+    <!--browser icon-->
+	<link rel="shortcut icon" href="./zurich/img/favicon.x_icon" type="image/x-icon">
+	<link rel="icon" href="./zurich/img/favicon.x_icon" type="image/x-icon">
+	<link rel="apple-touch-icon" href="./zurich/img/doctor-on-call-logo-white.png">
+   <!-- end of browser icon-->
+    <link rel="alternate" hreflang="en" href="./index-EN.html">
 
     <meta property="og:site_name" content="DoctorOnCall">
     <meta property="og:title" content="DoctorOnCall | Laman Perubatan dan Farmasi Atas Talian Malaysia">
     <meta property="og:description" content="DoctorOnCall adalah cara yang paling mudah untuk membuat pesanan ubat preskripsi secara atas talian. Bercakap dengan doktor melalui telefon dan hantarkan ubat ke rumah anda.">
     <meta property="og:image" itemprop="image" content="https://www.doctoroncall.com.my/medicine/images/doctoroncall-promotion.jpg">
     <!--Change After Routed -->
-    <meta property="og:url" content="https://www.doctoroncall.com.my/GreatEastern-BM">
+    <meta property="og:url" content="https://www.doctoroncall.com.my/zurich">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="DoctorOnCall | Laman Perubatan dan Farmasi Atas Talian Malaysia">
@@ -40,6 +42,7 @@
             var elmnt = document.getElementById(a);
             elmnt.scrollIntoView();
         }
+        //to scroll to specific page section
         function myFunction() {
             var x = document.getElementById("dropDown");
             if (x.style.display === "none") {
@@ -48,6 +51,12 @@
                 x.style.display = "none";
             }
         }
+		//go to specific page section and hide the nav bar
+		function goAndHide(z){
+			window.location.href=z;
+			var x = document.getElementById("dropDown");
+			x.style.display = "none"
+		}
 
     </script>
     <script>
@@ -73,7 +82,7 @@
 </head>
 
 <body ng-controller="landingHomeController">
-<header>
+<header>W
     <div class=" logo-container">
     	<img class="doc-logo" src="/zurich/img/doctorOnCall-logo.svg" alt="dengan kerjasama doctor on call">
     </div>
@@ -92,10 +101,10 @@
     		<img src="/zurich/img/icons8-menu-48.png" alt="menu icon for mobile only">
     	</a>
     	<div id="dropDown" class="drop-downlist">
-    		<a target="_self" class="pointTo" onclick="window.location.href='#services'">Perkhidmatan Kesihatan</a>
-    		<a target="_self" class="pointTo" onclick="window.location.href='#symptoms'">Masalah Kesihatan</a>
-    		<a target="_self" class="pointTo" onclick="window.location.href='#medicine'">Ubat Popular</a>
-    		<a target="_self" class="pointTo" onclick="window.location.href='#faq'">Soalan Lazim</a>
+    		<a target="_self" class="pointTo" onclick="goAndHide('#services')">Perkhidmatan Kesihatan</a>
+    		<a target="_self" class="pointTo" onclick="goAndHide('#symptoms')">Masalah Kesihatan</a>
+    		<a target="_self" class="pointTo" onclick="goAndHide('#medicine')">Ubat Popular</a>
+    		<a target="_self" class="pointTo" onclick="goAndHide('#faq')">Soalan Lazim</a>
     	</div>
     </div>
 </header>
