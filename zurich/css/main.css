@@ -220,7 +220,7 @@ header a {
 }
 /*-----------------------4. Introduction------------------------------*/
 .introduction{
-	background-image: url(/zurich/img/zurich-zurich-takaful-introduction.png);
+	background-image: url(./zurich/img/zurich-zurich-takaful-introduction.png);
 	background-position: top right;
 	background-size: cover;
 	box-sizing: content-box;
@@ -259,7 +259,7 @@ header a {
 }
 @media (max-width:768px){
 	.introduction{
-		background-image: url(/zurich/img/zurich-zurich-takaful-introduction-mobile.png);	background-position: 80%;
+		background-image: url(./zurich/img/zurich-zurich-takaful-introduction-mobile.png);	background-position: 80%;
 		height: max-content;	
 		padding: 0 0 0 10px;
 	}
@@ -283,7 +283,7 @@ header a {
 }
 @media (max-width:576px){
 	.introduction{
-		background-image: url(/zurich/img/zurich-zurich-takaful-introduction-mobile.png);
+		background-image: url(./zurich/img/zurich-zurich-takaful-introduction-mobile.png);
 		background-position: 80%;
 		height: max-content;	
 		padding: 0 0 0 10px;
