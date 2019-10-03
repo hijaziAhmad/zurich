@@ -37,6 +37,29 @@ button:focus {
 .pointTo{
 	cursor: pointer;
 }
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #888;
+}
 
 /*-----------------------1. header------------------------------*/
 .desktop-links {
@@ -151,7 +174,7 @@ header a {
 /*-----------------------2. adcontainer------------------------------*/
 .ads-container {
     /* background-color: #F5E6B3; */
-    background-image: url(/zurich/img/boost_grab_banner_desktop.png);
+    background-image: url(../img/boost_grab_banner_desktop.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -162,7 +185,7 @@ header a {
 @media (max-width:768px){
 	
 		.ads-container{
-			background-image:url(/zurich/img/boost_grab_banner.png);
+			background-image:url(../img/boost_grab_banner.png);
 			height: 150px;
 		}
 	}
@@ -220,10 +243,9 @@ header a {
 }
 /*-----------------------4. Introduction------------------------------*/
 .introduction{
-	background-image: url(./zurich/img/zurich-zurich-takaful-introduction.png);
+	background-image: url(../img/zurich-zurich-takaful-introduction.jpg);
 	background-position: top right;
 	background-size: cover;
-	box-sizing: content-box;
 	color: #333;
 	font-family: helvetica;
 	height: 468px;
@@ -244,14 +266,12 @@ header a {
 	width: 440px;
 	margin: 0 0 30px 0;
 }
-.intro-logo{
-	display: flex;
-	align-items: center;
-}
+
 .intro-logo img{
 	width:80px;
 	margin:auto 20px;
-	height: auto;	
+	height: auto;
+	vertical-align: top;
 }
 .intro-title{
 	font-size: 33px;
@@ -259,7 +279,7 @@ header a {
 }
 @media (max-width:768px){
 	.introduction{
-		background-image: url(./zurich/img/zurich-zurich-takaful-introduction-mobile.png);	background-position: 80%;
+		background-image: url(../img/zurich-zurich-takaful-introduction-mobile.jpg);	background-position: 80%;
 		height: max-content;	
 		padding: 0 0 0 10px;
 	}
@@ -282,12 +302,7 @@ header a {
 	}
 }
 @media (max-width:576px){
-	.introduction{
-		background-image: url(./zurich/img/zurich-zurich-takaful-introduction-mobile.png);
-		background-position: 80%;
-		height: max-content;	
-		padding: 0 0 0 10px;
-	}
+	
 	.intro-logo img{
 		width: 46px;
 		margin: auto 10px;
