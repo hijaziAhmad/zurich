@@ -102,8 +102,8 @@ button:focus {
 header {
 	align-items: center;
 	display: flex;
-	font-family: helvetica;
-	font-size: 14px;
+	font-family: 'Open Sans',  helvetica;
+	font-size: 14px; line-height: 23px;
 	height: 50px;
 	padding: 10px 10px;
 	justify-content: space-between;
@@ -192,7 +192,7 @@ header a {
 /*-----------------------3. FAQ------------------------------*/
 .faq-answers {
 	color: #444;
-	font-size: 14px;
+	font-size: 14px; line-height: 23px;
 	font-weight:500;
 	font-size:12px;
 	padding: 0;
@@ -204,7 +204,7 @@ header a {
 }
 .faq-container {
 	color: #444;
-	font-family: helvetica;
+	font-family: 'Open Sans',  helvetica;
 	margin-bottom: 40px;
 }
 .faq-container a {
@@ -247,7 +247,7 @@ header a {
 	background-position: top right;
 	background-size: cover;
 	color: #333;
-	font-family: helvetica;
+	font-family: 'Open Sans',  helvetica;
 	height: 468px;
 	padding: 70px 0 0 80px;
 	width: 100%;
@@ -256,11 +256,12 @@ header a {
 	background-color: #4066B3;
 	border-radius: 20px;
 	color:#fff;
-	font-size:14px;
-	padding: 10px 50px;
+	font-size:13px;
+	padding: 8px 40px;
 	margin: 30px 0 ;
 	display: block;
-	width: max-content;	
+	width: 153px;
+	text-align: center;
 }
 .intro-desc{
 	width: 440px;
@@ -290,7 +291,7 @@ header a {
 	.intro-desc{
 		margin: -46px 0 20px 0;
 		padding: 0 40px;
-		font-size: 14px;
+		font-size: 14px; line-height: 23px;
 	}
 	.intro-button{
 		margin: 0 40px;
@@ -308,7 +309,7 @@ header a {
 		margin: auto 10px;
 	}
 	.intro-title{
-		font-size: 16px;
+		font-size: 16px; line-height: 26px;
 		padding: 10px;
 	}
 	.intro-desc{
@@ -318,15 +319,16 @@ header a {
 		margin: -20px 0 20px 0;
 	}
 	.intro-button{
-		font-size: 12px;
-		padding: 5px 25px;
+		font-size: 10px;
+		padding: 5px 14px;
 		margin: 14px 10px;
+		width:90px;
 	}
 }
 
 /*-----------------------5. loginform and contact------------------------------*/
 #login{
-	font-family: helvetica;
+	font-family: 'Open Sans',  helvetica;
 }
 .cont-textarea{
 	margin:0 20px;
@@ -339,7 +341,7 @@ header a {
 	font-size: 18px;
 }
 .contact-desc{
-	font-size:16px;
+	font-size: 16px; line-height: 26px;
 }
 .contact-wrapper{
 	display: flex;
@@ -351,7 +353,7 @@ header a {
 	
 }
 .form-wrapper {
-	font-size: 14px;
+	font-size: 14px; line-height: 23px;
 }
 .form-wrapper a{
 	text-decoration: underline;
@@ -391,7 +393,7 @@ header a {
 }
 .login-form {
 	color: #333;
-	font-family: helvetica;
+	font-family: 'Open Sans',  helvetica;
 	max-width: 700px;
 	margin-left: auto;
 	padding: 20px;
@@ -403,7 +405,7 @@ header a {
 	font-weight: 700;
 	margin-bottom: 40px;
 }
-.login-wrapper, .login-wrapper a{
+.login-wrapper, .login-contact a{
 	color:#fff;
 }
 .login-contact img{
@@ -464,20 +466,20 @@ header a {
 	
 	.login-contact{
 		margin:0;
-		font-size: 14px;
+		font-size: 14px; line-height: 23px;
 	}
 	.form-wrapper {
 		font-size: 12px;
 	}
 	.contact-main-title{
-		font-size: 16px;
+		font-size: 16px; line-height: 26px;
 		font-weight: 600;
 		margin: 0;
 		position: relative;
 		top:9px;
 	}
 	.contact-title{
-	font-size: 14px;
+	font-size: 14px; line-height: 23px;
 	margin-top: 0;
 		font-weight: 600;
 }
@@ -501,13 +503,13 @@ header a {
 }
 	.contact-wrapper p,
 	.contact-wrapper a{
-		font-size: 14px;
+		font-size: 14px; line-height: 23px;
 	}
 	.form-wrapper a{
 		font-size: 12px;
 	}
 	.login-form .login-title {	
-	font-size: 16px;
+	font-size: 16px; line-height: 26px;
 }
 }
 @media (max-width:576px){
@@ -530,8 +532,8 @@ header a {
 }
 .medicine-container {
 	color: #333;
-	font-family: helvetica;
-	font-size: 14px;
+	font-family: 'Open Sans',  helvetica;
+	font-size: 14px; line-height: 23px;
 	margin: 40px auto;
 	text-align: center;
 }
@@ -577,31 +579,45 @@ header a {
 .medicine-textarea .symp-med-btn{
 	color: #fff;
 }
+.symp-med-btn-2{
+		background-color: #4066b3;
+	border-radius: 20px;
+	bottom: 0;
+	color: #fff;
+	width: 150px;
+	padding: 10px 50px;
+	text-decoration: none;
+	margin: 0 auto;
+	display: block;
+
+}
 @media(max-width: 576px){
 	.medicine-name{
 		min-height: 55px;
 	}
 	.medicine-textarea .symp-med-btn{
 		font-size: 14px;
-	padding: 5px 20px;
+		line-height: 23px;
+		padding: 5px 20px;
 	}
 }
 /*-----------------------7. Services------------------------------*/
 .service-btn {
 	cursor: pointer;
     background-color: #fff;
-    border-radius: 16px;
+    border-radius: 20px;
     color: #4066B3;
     display: block;
-	font-size:12px;
+	font-size:16px;
+	font-weight: 600;
     margin: 10px auto;
     padding: 10px 15px;
-    width: 120px;
+    width: 184px;
     text-align: center;
 }
 .service-container {
 	color: #444;
-	font-family: helvetica;
+	font-family: 'Open Sans',  helvetica;
 	margin: 80px inherit inherit 80px;
 }
 .service-container h2 {
@@ -609,7 +625,7 @@ header a {
 	text-align: center;
 }
 .service-desc {
-	font-size: 14px;
+	font-size: 14px; line-height: 23px;
 	height: 120px;
 }
 .service-textarea {
@@ -618,7 +634,7 @@ header a {
 }
 .service-title {
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 16px; line-height: 26px;
 }
 .service-wrapper {
 	border-radius: 12px;
@@ -632,6 +648,7 @@ header a {
 .service-wrapper img {
 	width: 70%;
 	margin: 10px auto;
+	height: 138px;
 }
 @media only screen and (max-width: 768px) {
 	.svc-btn{
@@ -640,45 +657,57 @@ header a {
 	.service-wrapper {
 		width: 88%;
 		min-height: 0;
-		height: max-content;
 	}
 	.service-wrapper img{
 		width: 40%;
+		height: auto;
+		
 	}
 
 	.service-desc {
-		font-size: 16px;
+		font-size: 16px; line-height: 26px;
 		min-height: 0;
 		height: max-content;
 		padding: 0 40px;
 	}
 
 	.service-textarea {
-		padding: 0 8px;
+		padding: 0;
 	}
 }
 @media (max-width:576px){
+	.service-btn{
+		font-size: 12px;
+		width: 112px;
+    	padding: 10px 7px;
+	}
 	.service-wrapper {
 		width: 88%;
-		min-height: 300px;
+		min-height: 310px;
 	}
 	.service-desc{		
-		font-size:14px;
+		font-size:12px;
 		height: 99px;
+		padding:0;
 	}
 	.service-title{
-		font-size: 14px;
-	}
+		font-size: 14px; line-height: 23px;
+	}	
 	.service-container h2{
 		font-size:20px;
+	}
+	.service-wrapper img{
+		width: auto;
+		height: 80px;
+		
 	}
 }
 /*-----------------------8. symptoms------------------------------*/
 .symptom-container {
 	background-color: #f5f5f5;
 	color: #333;
-	font-family: helvetica;
-	font-size: 14px;
+	font-family: 'Open Sans',  helvetica;
+	font-size: 14px; line-height: 23px;
 	margin-top: 20px;
 	text-align: center;
 }
@@ -705,7 +734,7 @@ header a {
 }
 .symp-med-btn {
 	background-color: #4066b3;
-	border-radius: 15px;
+	border-radius: 20px;
 	bottom: 0;
 	color: #fff;
 	width: 150px;
@@ -727,7 +756,7 @@ header a {
 /*-----------------------9. footer------------------------------*/
 footer {
 	background-color: #f5f5f5;
-	font-family: helvetica;
+	font-family: 'Open Sans',  helvetica;
 	font-size: 12px;
 	float: clear;
 	padding: 2%;
