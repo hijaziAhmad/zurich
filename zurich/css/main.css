@@ -102,7 +102,7 @@ button:focus {
 header {
 	align-items: center;
 	display: flex;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	font-size: 14px;
 	height: 50px;
 	padding: 10px 10px;
@@ -204,7 +204,7 @@ header a {
 }
 .faq-container {
 	color: #444;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	margin-bottom: 40px;
 }
 .faq-container a {
@@ -247,7 +247,7 @@ header a {
 	background-position: top right;
 	background-size: cover;
 	color: #333;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	height: 468px;
 	padding: 70px 0 0 80px;
 	width: 100%;
@@ -257,10 +257,12 @@ header a {
 	border-radius: 20px;
 	color:#fff;
 	font-size:14px;
-	padding: 10px 50px;
-	margin: 30px 0 ;
+	font-weight: 600;
+	margin: 30px 0;
+	padding: 10px;
+	text-align: center;
 	display: block;
-	width: max-content;	
+	width:150px;
 }
 .intro-desc{
 	width: 440px;
@@ -326,17 +328,18 @@ header a {
 
 /*-----------------------5. loginform and contact------------------------------*/
 #login{
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 }
 .cont-textarea{
 	margin:0 20px;
 }
 .contact-main-title{
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: bold;
 }
 .contact-title{
 	font-size: 18px;
+	font-weight: bold;
 }
 .contact-desc{
 	font-size:16px;
@@ -352,6 +355,7 @@ header a {
 }
 .form-wrapper {
 	font-size: 14px;
+	font-weight:500;
 }
 .form-wrapper a{
 	text-decoration: underline;
@@ -376,13 +380,16 @@ header a {
 	background-color: #4066B3;
 	border-radius: 20px;
 	color: #fff;
-	margin: 8px auto;
-	padding: 14px 20px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 600;
+	margin: 24px auto;
+	padding: 9px 38px;
 	width: max-contents;
 	display: block;
 }
 .login-form .login-forget {
-    color: #333;
+    color: #4066B3;
     font-size: 12px;
     display: block;
     margin: 15px;
@@ -391,7 +398,7 @@ header a {
 }
 .login-form {
 	color: #333;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	max-width: 700px;
 	margin-left: auto;
 	padding: 20px;
@@ -456,8 +463,11 @@ header a {
 	background-position: 0 -17px;
 }
 .form-wrapper label.css-label {
-	background-image: url(/zurich/img/csscheckbox_blue.png);
+	background-image: url(../img/csscheckbox_blue.png);
 	user-select: none;
+}
+.css-label a{
+	color: #4066B3;
 }
 /*--end  checkbox--*/
 @media (max-width:768px){
@@ -529,14 +539,19 @@ header a {
 }
 .medicine-container {
 	color: #333;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	font-size: 14px;
 	margin: 40px auto;
 	text-align: center;
 }
+.medicine-container h2{
+	font-size: 24px;
+	font-weight: bold;
+}
 .medicine-container a{
 	margin: 40px auto;
 }
+
 .medicine-disclaimer {
 	font-size: 13px;
 	text-align: center;
@@ -576,6 +591,19 @@ header a {
 .medicine-textarea .symp-med-btn{
 	color: #fff;
 }
+.symp-med-btn-2{
+	background-color: #4066b3;
+	border-radius: 20px;
+	bottom: 0;
+	color: #fff;	
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	margin: 0 auto;
+	padding:10px 30px;
+	width: 189px;
+}
 @media(max-width: 576px){
 	.medicine-name{
 		min-height: 55px;
@@ -589,18 +617,19 @@ header a {
 .service-btn {
 	cursor: pointer;
     background-color: #fff;
-    border-radius: 16px;
+    border-radius: 20px;
     color: #4066B3;
     display: block;
-	font-size:12px;
+	font-size:16px;
+	font-weight: 600;
     margin: 10px auto;
     padding: 10px 15px;
-    width: 120px;
+    width: 184px;
     text-align: center;
 }
 .service-container {
 	color: #444;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	margin: 80px inherit inherit 80px;
 }
 .service-container h2 {
@@ -610,13 +639,14 @@ header a {
 .service-desc {
 	font-size: 14px;
 	height: 120px;
+	line-height: 23px;
 }
 .service-textarea {
 	min-height: 200px;
 	padding: 0 25px 15px;
 }
 .service-title {
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 16px;
 }
 .service-wrapper {
@@ -631,6 +661,7 @@ header a {
 .service-wrapper img {
 	width: 70%;
 	margin: 10px auto;
+	height: 138px;
 }
 @media only screen and (max-width: 768px) {
 	.svc-btn{
@@ -643,10 +674,11 @@ header a {
 	}
 	.service-wrapper img{
 		width: 40%;
+		height: auto;
 	}
 
 	.service-desc {
-		font-size: 16px;
+		font-size: 12px;
 		min-height: 0;
 		height: max-content;
 		padding: 0 40px;
@@ -655,15 +687,27 @@ header a {
 	.service-textarea {
 		padding: 0 8px;
 	}
+	.service-btn{
+		
+		font-size: 12px;
+		padding: 8px;
+		width: 112px;
+	}
 }
 @media (max-width:576px){
 	.service-wrapper {
 		width: 88%;
 		min-height: 300px;
 	}
+	.service-wrapper img{
+		width: auto;
+		height: 80px;
+	}
 	.service-desc{		
-		font-size:14px;
+		font-size:12px;
 		height: 99px;
+		line-height: 21px;
+		padding:0;
 	}
 	.service-title{
 		font-size: 14px;
@@ -676,7 +720,7 @@ header a {
 .symptom-container {
 	background-color: #f5f5f5;
 	color: #333;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	font-size: 14px;
 	margin-top: 20px;
 	text-align: center;
@@ -704,7 +748,7 @@ header a {
 }
 .symp-med-btn {
 	background-color: #4066b3;
-	border-radius: 15px;
+	border-radius: 20px;
 	bottom: 0;
 	color: #fff;
 	width: 150px;
@@ -723,10 +767,11 @@ header a {
 	font-weight: 600;
 	margin: 0;
 }
+
 /*-----------------------9. footer------------------------------*/
 footer {
 	background-color: #f5f5f5;
-	font-family: helvetica;
+	font-family: 'Open Sans', helvetica;
 	font-size: 12px;
 	float: clear;
 	padding: 2%;
