@@ -186,7 +186,7 @@ header a {
 	
 		.ads-container{
 			background-image:url(../img/boost_grab_banner.png);
-			height: 150px;
+			min-height: 200px;
 		}
 	}
 /*-----------------------3. FAQ------------------------------*/
@@ -537,7 +537,7 @@ header a {
 	color: #333;
 	font-family: 'Open Sans',  helvetica;
 	font-size: 14px; line-height: 23px;
-	margin: 40px auto;
+	margin: 20px auto;
 	text-align: center;
 }
 .medicine-container a{
@@ -583,25 +583,31 @@ header a {
 	color: #fff;
 }
 .symp-med-btn-2{
-		background-color: #4066b3;
+	background-color: #4066b3;
 	border-radius: 20px;
 	bottom: 0;
 	color: #fff;
-	width: 150px;
-	padding: 10px 50px;
+	width: 170px;
+	padding: 10px 0;
 	text-decoration: none;
 	margin: 0 auto;
 	display: block;
 
 }
+
 @media(max-width: 576px){
 	.medicine-name{
-		min-height: 55px;
+		min-height: 67px;
 	}
 	.medicine-textarea .symp-med-btn{
-		font-size: 14px;
+		font-size: 12px;
 		line-height: 23px;
-		padding: 5px 20px;
+		padding: 0 20px;
+	}
+	.symp-med-btn-2{
+		font-size:12px;
+		padding: 5px 10px;
+		width: 107px;
 	}
 }
 /*-----------------------7. Services------------------------------*/
@@ -755,6 +761,12 @@ header a {
 .symp-title {
 	font-weight: 600;
 	margin: 0;
+}
+@media screen (max-width:576px) {
+	.symp-med-btn{
+		font-size: 12px;
+	}
+	
 }
 /*-----------------------9. footer------------------------------*/
 footer {
