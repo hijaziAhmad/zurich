@@ -37,30 +37,28 @@ button:focus {
 .pointTo{
 	cursor: pointer;
 }
+h2{
+	margin: 40px auto;
+}
 /*scrollbar*/
 ::-webkit-scrollbar {
   width: 5px;
   height: 8px;
   background-color: transparent;
 }
-
 ::-webkit-scrollbar-track {
   background: #fff;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: #aaa;
 }
-
 ::-webkit-scrollbar-thumb:active {
   background: #888;
 }
-
 /*-----------------------1. header------------------------------*/
 .desktop-links {
 	display: inline-block;
@@ -127,7 +125,7 @@ header a {
 }
 .logo-container .doc-logo {
 	height: 44px;
-	margin-left: auto;
+	margin: 50px auto;
 	padding-right: 10px;
 	width: auto;
 }
@@ -149,6 +147,7 @@ header a {
 	header {
 		display: flex;
 	}
+	.header{padding:  0px 7px}
 	.header-rightside{
 		display: none;
 	}
@@ -267,7 +266,6 @@ header a {
 	width: 440px;
 	margin: 0 0 30px 0;
 }
-
 .intro-logo img{
 	width:80px;
 	margin:auto 20px;
@@ -281,7 +279,7 @@ header a {
 @media (max-width:768px){
 	.introduction{
 		background-image: url(../img/zurich-zurich-takaful-introduction-mobile.jpg);	background-position: 80%;
-		height: max-content;	
+/*		height: max-content;	*/
 		padding: 0 0 0 10px;
 	}
 	.intro-title{
@@ -320,9 +318,9 @@ header a {
 	}
 	.intro-button{
 		font-size: 10px;
-		padding: 5px 14px;
+		padding: 7px 0;
 		margin: 14px 10px;
-		width:90px;
+		width:110px;
 	}
 }
 
@@ -381,7 +379,7 @@ header a {
 	font-family: 'Open Sans',helvetica;
 	margin: 8px auto;
 	padding: 14px 20px;
-	width: max-contents;
+/*	width: max-contents;*/
 	display: block;
 }
 .login-form .login-forget {
@@ -425,6 +423,7 @@ header a {
 }
 .login-wrapper {
 	height: auto;
+	margin: 0;
 }
 .logo-login {
 	width: 70px;
@@ -602,12 +601,11 @@ header a {
 	.medicine-textarea .symp-med-btn{
 		font-size: 12px;
 		line-height: 23px;
-		padding: 0 20px;
+		padding: 4px 20px;
 	}
 	.symp-med-btn-2{
 		font-size:12px;
-		padding: 5px 10px;
-		width: 107px;
+		padding: 2%;
 	}
 }
 /*-----------------------7. Services------------------------------*/
@@ -676,7 +674,7 @@ header a {
 	.service-desc {
 		font-size: 16px; line-height: 26px;
 		min-height: 0;
-		height: max-content;
+/*		height: max-content;*/
 		padding: 0 40px;
 	}
 
@@ -747,11 +745,10 @@ header a {
 	bottom: 0;
 	color: #fff;
 	width: 150px;
-	padding: 10px 50px;
+	padding: 10px 0px;
 	text-decoration: none;
 	margin: 0 auto;
 	display: block;
-	width: max-content;
 
 }
 .symp-textarea {
