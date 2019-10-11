@@ -279,7 +279,7 @@ header a {
 @media (max-width:768px){
 	.introduction{
 		background-image: url(../img/zurich-zurich-takaful-introduction-mobile.jpg);	background-position: 80%;
-/*		height: max-content;	*/
+		height: auto;	/*instead of 290px*/
 		padding: 0 0 0 10px;
 	}
 	.intro-title{
@@ -304,7 +304,7 @@ header a {
 	
 	.intro-logo img{
 		width: 46px;
-		margin: auto 10px;
+		margin: 5px 6px;
 	}
 	.intro-title{
 		font-size: 16px; line-height: 26px;
@@ -314,10 +314,10 @@ header a {
 		width:49%;
 		font-size: 12px;
 		padding: 0 10px;
-		margin: -20px 0 20px 0;
+		margin-top: -20px;
 	}
 	.intro-button{
-		font-size: 10px;
+		font-size: 12px;
 		padding: 7px 0;
 		margin: 14px 10px;
 		width:110px;
