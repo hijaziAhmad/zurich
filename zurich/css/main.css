@@ -15,10 +15,12 @@ footer
 */
 
 /*-----------------------GLOBAL------------------------------*/
+/*
 a {
-	/*remove anchor tag preset style*/
+	remove anchor tag preset style
 	text-decoration: none;
 }
+*/
 html,
 body {
 	scroll-behavior: smooth;
@@ -120,17 +122,18 @@ header a {
 }
 .logo-container {
 	display: flex;
-	margin-right: auto;
+	margin: 10 auto auto 0;
 	justify-content: space-around;
 }
 .logo-container .doc-logo {
 	height: 44px;
-	margin: 50px auto;
-	padding-right: 10px;
-	width: auto;
+/*	margin: 50px auto;*/
+/*	padding-right: 10px;*/
+/*	width: auto;*/
 }
 .logo-container svg {
-	margin-right: 10px width: 50px;
+	margin-right: 10px;
+	width: 50px;
 }
 .mobile-links {
 	border-radius: 5px;
@@ -314,13 +317,13 @@ header a {
 		width:49%;
 		font-size: 12px;
 		padding: 0 10px;
-		margin-top: -20px;
+		margin: -20px 0 -10px 0;
 	}
 	.intro-button{
 		font-size: 12px;
-		padding: 7px 0;
+		padding: 10px 7px;
 		margin: 14px 10px;
-		width:110px;
+		width:30%;
 	}
 }
 
@@ -518,7 +521,7 @@ header a {
 .login-btn{
 		margin: 40px auto -6px auto;
 		padding: 9px 8px;
-		width: 292px;
+		width: 100%;
 		font-size:12px;
 		font-weight: 400;
 	}
@@ -570,6 +573,9 @@ header a {
 	border:none;
 	
 }
+.medicine-textarea a {
+    text-decoration: none;
+}
 .medicine-product {
 	border: 1px #eee solid;
 	margin: auto auto 10px auto;
@@ -600,8 +606,8 @@ header a {
 	}
 	.medicine-textarea .symp-med-btn{
 		font-size: 12px;
-		line-height: 23px;
-		padding: 4px 20px;
+		padding: 4px 0;
+		width: 80%;
 	}
 	.symp-med-btn-2{
 		font-size:12px;
@@ -618,6 +624,7 @@ header a {
 	font-size:16px;
 	font-weight: 600;
     margin: 10px auto;
+	text-decoration: none;
     padding: 10px 15px;
     width: 184px;
     text-align: center;
